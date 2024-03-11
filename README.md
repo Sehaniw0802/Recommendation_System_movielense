@@ -40,6 +40,7 @@ This algorithm first focuses on the similarity scores between users. Based on th
 The principle behind this algorithm is as follows, if both persons A and B like ‘Movie 1’ and ‘Movie 2’, then they have similar interests. If B likes to ‘Movie 3’ then it is highly likely to A also would like for ‘Movie 3’. 
 
 ![user based](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/8d25bed6-29f9-4c7f-aa79-826bdb11af65)
+
 Figure: User-Based Collaborative Filtering
 
 To calculate the similarity scores this is using the weighted sum of the user ratings given by other users to the item (i), and to predict the ratings for users following steps are following. (Sharma, 2018)
@@ -57,8 +58,10 @@ This Item-based technique focuses on the similarities between items. These simil
 The principle behind this algorithm is as follows.
 
 In figure 2.13, ‘Item 1’ and ‘Item 3’ are similar to each other as they have been liked by ‘User 1’ and ‘User 2’. To recommend items to ‘User 3’, first, need to find the items being liked by ‘User 3’. (‘Item 3’). The next step is to find similar items to ‘Item 3’. (‘Item 1’). Therefore, can recommend ‘Item 1’ to ‘User 3’ as he likes ‘Item 3’ and ‘Item 3’ is similar to ‘Item 1’.
+
+![item based](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/ecde6631-63d2-4c78-8c7b-4f34c9387bf5)
                                 
-Figure 2.13 Item-based Collaborative Filtering
+Figure: Item-based Collaborative Filtering
 
 The steps of this method can be summarized as below (rachitgupta, 2020). 
 
@@ -70,8 +73,10 @@ The steps of this method can be summarized as below (rachitgupta, 2020).
 ### Cosine Similarity
 
 The Cosine Distance similarity function focuses on the two samples to compare and consider the angle between them. To quantify the similarity among them the cosine of the angle is considered. The scale used in this similarity measure is from +1 to -1 and positive values near to +1 represent high similarity. The negative values near to minus 1 represent the inversely high correlation (when one says True the other says False). and zero represents no correlation. (Claudio, 2014)
+
+![cosine similarity](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/5d6c527d-aedc-4888-9d77-82f17a29fbb9)
            
-Figure 2.14 Cosine Similarity
+Figure: Cosine Similarity
 
 The cosine similarity uses cos(θ) to measure the distance between two vectors. So when θ increases, cos(θ) decreases (cos(θ) = 1 when θ = 0 and cos(θ) = 0 when θ = 90). Therefore, when the value of θ is smaller, the two vectors are considered closer which means high similarity. 
 
@@ -86,8 +91,10 @@ Mean Squared Difference computes the difference between ratings. Here compute th
 ## Matrix Factorization Method 
 
 Matrix Factorization is one of the most popular approaches of collaborative filtering and it is based on latent factor models. By this method can find some latent features that can determine how a user rates an item. This method decomposes the matrix into constituent parts in a way such that the dot product of these matrices reproduces the best approximation of the original matrix. 
+
+![matrix factorization method](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/09c9f674-f652-4532-9c5b-e5c3cf3aac6d)
  
-Figure 2.15 Matrix Factorization method
+Figure: Matrix Factorization method
 
 Some of the most successful latent factor models are based on matrix factorization. In its natural form, matrix factorization characterizes items and users using vectors of factors inferred from item rating patterns. High correspondence between item and user factors leads. (Filtering, 2017)
 
@@ -106,7 +113,9 @@ Nonnegative matrix factorization is a matrix decomposition approach that decompo
 ### Root Mean Square Error (RMSE)
 
 Root Mean Square Error (RMSE) is a standard way of measuring the error of a model in predicting quantitative data. It shows how far predictions fall from measured true values using Euclidean distance. It can be defined as below. (Hug, 2015)
-                        
+
+![RMSE](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/5d38de31-09d5-4c51-98bf-7575e9bf8df3)
+   
 Here rui represents the ‘true’ rating of user u for item i
 r^ui represents the ‘estimated’ rating for user u for item i
 R^ represents the set of predicted ratings.
@@ -130,7 +139,7 @@ Here also terms ‘relevant’ and ‘recommended’ are defined the same as the
 ## Detail overview of the recommendation methods that used in this project
 
 
-
+![Overview](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/52ab8844-6b70-4a70-8fd5-1ee1b1910be6)
 
 
 
