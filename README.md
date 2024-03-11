@@ -138,7 +138,7 @@ Here also terms ‘relevant’ and ‘recommended’ are defined the same as the
 
 ## Detail overview of the recommendation methods that used in this project
 
-<img src="https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/52ab8844-6b70-4a70-8fd5-1ee1b1910be6" width="60%" height="60%"> 
+<img src="https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/f8ac9cbe-d9fc-40e7-8c18-ba0aec597233" width="60%" height="60%"> 
 
 
 
