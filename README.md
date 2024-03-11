@@ -126,6 +126,7 @@ Recall=(|{Recommended items that are relevant}|)/(|{Relevant items}|)
 
 Here also terms ‘relevant’ and ‘recommended’ are defined the same as the precision and if division by zero occurs then recall becomes undefined and as a convention set it into 0.
 
+## Detail overview of the recommendation methods that used in this project
 
 
 
