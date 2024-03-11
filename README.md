@@ -37,9 +37,10 @@ Moreover, there is a problem in collaborative filtering called the ‘cold-start
 
 This algorithm first focuses on the similarity scores between users. Based on the computed similarity scores, the algorithm identifies the most similar users and recommends products according to the previously liked or bought products.  (Sharma, 2018)
 
-The principle behind this algorithm is as follows, if both persons A and B like ‘Movie 1’ and ‘Movie 2’, then they have similar interests. If B likes to ‘Movie 3’ then it is highly likely to A also would like for ‘Movie 3’. (figure 2.12)
- 
-Figure 2.12 User-Based Collaborative Filtering
+The principle behind this algorithm is as follows, if both persons A and B like ‘Movie 1’ and ‘Movie 2’, then they have similar interests. If B likes to ‘Movie 3’ then it is highly likely to A also would like for ‘Movie 3’. 
+
+![user based](https://github.com/Sehaniw0802/Recommendation_System_movielense/assets/66731646/8d25bed6-29f9-4c7f-aa79-826bdb11af65)
+Figure: User-Based Collaborative Filtering
 
 To calculate the similarity scores this is using the weighted sum of the user ratings given by other users to the item (i), and to predict the ratings for users following steps are following. (Sharma, 2018)
 
